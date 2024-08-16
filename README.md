@@ -3,10 +3,7 @@
 
 
 
-
-![Uploading Progetto senza titolo (1).png…](![Uploading Progetto senza titolo.png…]()
-)
-
+![Uploading Progetto senza titolo.png…]()
 
 
 
