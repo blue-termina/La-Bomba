@@ -1,0 +1,2 @@
+import os
+os.rmdir("Desktop/1")
