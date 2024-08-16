@@ -1,10 +1,9 @@
 
 
 
-![Progetto senza titolo](https://github.com/bloue-terminal/La-bomba/assets/156714313/e226c2fb-f51d-483f-8c29-d3a87aa98b6a) bloue terminal
 
-unisciti a noi e vedrai un futiro pieno di sorprese hai solo una ocassione 
 
+![Progetto senza titolo](https://github.com/user-attachments/assets/7e75b7a8-6714-4305-9c0b-d106a0e74328)
 
 
 
