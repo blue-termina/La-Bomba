@@ -7,6 +7,7 @@ currently being supported with security updates.
 
 | Version|   Supported        |
 | end    |     2030           |
+| end    |     2030           |
 | 20.50  |       ⏲️           |
 |official|      2025          |
 | 11.02  |       ⏲️           |
