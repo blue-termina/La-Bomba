@@ -7,7 +7,7 @@ currently being supported with security updates.
 
 | Version|   Supported        |
 | -----  |     ----          |
-| end    |     2030           |
+| end    |     2030-2050       |
 | 40.30  |       ⏲️           |
 |official|      2025          |
 | 11.02  | :white_check_mark: |
