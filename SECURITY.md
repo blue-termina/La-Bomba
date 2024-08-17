@@ -6,8 +6,10 @@ Use this section to tell people about which versions of your project are
 currently being supported with security updates.
 
 | Version|   Supported        |
-| -------|    -----------     |
+| end    |     2030           |
+| 20.50  |       ⏲️           |
 |official|      2025          |
+| 11.02  |       ⏲️           |
 | 11.00  |       🛑           |
 | 10.0.x |       ⏲️           |
 |  BETA  |     2024-2030      | 
@@ -18,7 +20,7 @@ currently being supported with security updates.
 | 4.0.x  | :white_check_mark:  |
 | 4.0.x  | :x:                 |
 
-## Reporting a Vulnerability
+## Reporting a Vulnerability 
 
 Use this section to tell people how to report a vulnerability.
 
