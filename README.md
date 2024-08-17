@@ -3,6 +3,10 @@
 
 
 
+
+Uploading bloue-terminal  parlano.mp4…
+
+
 ![Uploading Progetto senza titolo.png…]()
 
 
