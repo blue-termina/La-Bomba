@@ -3,7 +3,8 @@
 
 
 
-![Progetto senza titolo](https://github.com/user-attachments/assets/db353b83-f05f-46a8-b8b4-95a0655c148b)
+![Progetto senza titolo]()![Progetto senza titolo (1)](https://github.com/user-attachments/assets/2b33532b-a336-460b-a32f-51fc88b5fe78)
+
 
 
 
