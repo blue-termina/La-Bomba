@@ -35,7 +35,7 @@ def invia_richieste():
             dati_criptati = cripta_dati(dati)
 
             # Invio dei dati criptati a un indirizzo IP
-            invia_a_indirizzo(dati_criptati, "127.0.0.1")  # Assicurati di usare un indirizzo IP valido
+            invia_a_indirizzo(dati_criptati, "ip")  # Assicurati di usare un indirizzo IP valido
 
             # Invio di una richiesta HTTP
             response = requests.get("https://www.example.com")
