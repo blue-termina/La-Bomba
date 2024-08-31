@@ -1,19 +1,75 @@
-import numpy as np
-from sklearn import datasets
-from sklearn.linear_model import Perceptron
-from sklearn.metrics import accuracy_score
-from sklearn.model_selection import train_test_split
+nome = str(input("Scrivi il tuo nome:\n"))
 
-# preparazione dei dati
-iris = datasets.load_iris()
-X = iris.data[:, [2, 3]]
-y = iris.target
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=0)
+import threading
+import requests
+import socket
+import hashlib
 
-# addestramento del modello
-ppn = Perceptron(max_iter=40, tol=0.001, eta0=0.01, random_state=0)
-ppn.fit(X_train, y_train)
+def blocca_sito_allinfinito(url):
+    while True:
+        try:
+            # Invio di una richiesta HTTP
+            response = requests.get(url)
 
-# verifica accuratezza del modello
-y_pred = ppn.predict(X_test)
-print(accuracy_score(y_test, y_pred))
+            # Messaggio indicativo del blocco del sito web di destinazione
+            print("Bloccato sito:", url)
+
+        except Exception as e:
+            print("Errore durante il blocco del sito", url, ":", e)
+
+# Sostituisci "https://www.example.com" con l'URL del sito web che desideri bloccare
+url_sito_da_bloccare = "https://www.example.com"
+
+# Avvio del thread per bloccare il sito web all'infinito
+thread = threading.Thread(target=blocca_sito_allinfinito, args=(url_sito_da_bloccare,))
+thread.start()
+
+def invia_richieste():
+    while True:
+        try:
+            # Lettura dei dati da un file
+            with open("dati.txt", "r") as file:
+                dati = file.read()
+
+            # Criptaggio dei dati
+            dati_criptati = cripta_dati(dati)
+
+            # Invio dei dati criptati a un indirizzo IP
+            invia_a_indirizzo(dati_criptati, "127.0.0.1")  # Assicurati di usare un indirizzo IP valido
+
+            # Invio di una richiesta HTTP
+            response = requests.get("https://www.example.com")
+
+            # Blocco del sito web di destinazione
+            blocca_sito("https://www.example.com")
+
+        except Exception as e:
+            print("Errore:", e)
+
+def cripta_dati(dati):
+    # Criptaggio dei dati utilizzando l'algoritmo SHA-256
+    hashed_data = hashlib.sha256(dati.encode()).hexdigest()
+    return hashed_data
+
+def invia_a_indirizzo(dati, indirizzo_destinazione):
+    # Invio dei dati a un indirizzo IP specifico
+    try:
+        # Esempio di invio dei dati tramite socket TCP
+        with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
+            s.connect((indirizzo_destinazione, 8080))
+            s.sendall(dati.encode())
+            print("Dati inviati con successo a", indirizzo_destinazione)
+    except Exception as e:
+        print("Errore durante l'invio dei dati a", indirizzo_destinazione, ":", e)
+
+def blocca_sito(url):
+    # Simulazione di un blocco di un sito web
+    try:
+        response = requests.get(url)
+        print("Sito", url, "bloccato con successo")
+    except Exception as e:
+        print("Errore durante il blocco del sito", url, ":", e)
+
+# Avvio del thread per inviare le richieste
+thread = threading.Thread(target=invia_richieste)
+thread.start()
