@@ -7,7 +7,6 @@
 
 
 
-
 non mi assumo nessuna responsabilità del utilizzo di questo strumento 🚨
 
 
