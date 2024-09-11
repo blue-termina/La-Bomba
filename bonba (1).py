@@ -1,7 +1,7 @@
 nome=str(input("scivi il tuo nome\n"))
 import threading
 import requests
-
+#be careful📢
 def blocca_sito_allinfinito(url):
     while True:
         try:
