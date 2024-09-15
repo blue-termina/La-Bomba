@@ -14,7 +14,7 @@ currently being supported with security updates.
 | 50.20  |       🛑           |
 | 50.0.x |       ⏲️           |
 | stable |     2023-2024      |
-| 10.0.x |       ⏲️           |
+| 10.x   |       ⏲️            |
 | 9.4x   |  :white_check_mark:|
 | 8.0x   | :white_check_mark: |
 | beta   |     2023-2024      |
