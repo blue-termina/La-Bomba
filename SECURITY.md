@@ -8,13 +8,14 @@ currently being supported with security updates.
 | Version|   Supported        |
 | -----  |     ----          |
 | end    |     2030-2050       |
-| 40.30  |       ⏲️           |
+| 80.30  |       ⏲️           |
 |official|      2025-2028      |
-| 11.02  | :white_check_mark: |
-| 11.00  |       🛑           |
-| 10.0.x |       ⏲️           |
+| 70.02  | :white_check_mark: |
+| 50.20  |       🛑           |
+| 50.0.x |       ⏲️           |
 | stable |     2023-2024      |
-| 8.4x   |       ⏲️          |
+| 10.0.x |       ⏲️           |
+| 9.4x   |  :white_check_mark:|
 | 8.0x   | :white_check_mark: |
 | beta   |     2023-2024      |
 | 7.8.x  |       ❌           |
