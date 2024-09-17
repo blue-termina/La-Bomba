@@ -9,7 +9,7 @@ currently being supported with security updates.
 | -----  |     ----          |
 | end    |     2030-2050       |
 | 80.30x  |       ⏲️           |
-|official|      2025-2028      |
+|official|      2027-2030      |
 | 70.02x  |       ⏲️         |
 | 60.50x  |       ⏲️         |
 | 50.20x  |       ⏲️        |
