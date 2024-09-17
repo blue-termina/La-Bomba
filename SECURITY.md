@@ -19,7 +19,7 @@ currently being supported with security updates.
 | 9.4x   |        ❗             |
 | 8.0x   |      ✖️             |
 | beta   |     2023-2024      |
-| 7.8.x  |       ❌           |
+| 7.8.x  |       🛑           |
 | 5.4.x  | :white_check_mark: |
 | 5.1.x  | :exclamation:      |
 | alpha  |     2021-2022       | 
