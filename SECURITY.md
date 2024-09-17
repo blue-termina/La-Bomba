@@ -12,11 +12,11 @@ currently being supported with security updates.
 |official|      2025-2028      |
 | 70.02x  |       ⏲️         |
 | 60.50x  |       ⏲️         |
-| 50.20x  |  :white_check_mark:|
+| 50.20x  |       ⏲️        |
 | 50.x   |       ❗           |
 | stable |     2023-2024      |
-| 10.x   |       ⏲️            |
-| 9.4x   |  :white_check_mark:|
+| 10.x   | :white_check_mark:  |
+| 9.4x   |        ❗             |
 | 8.0x   |      ✖️             |
 | beta   |     2023-2024      |
 | 7.8.x  |       ❌           |
