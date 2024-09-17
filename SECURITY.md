@@ -10,10 +10,10 @@ currently being supported with security updates.
 | end    |     2030-2050       |
 | 80.30x  |       ⏲️           |
 |official|      2025-2028      |
-| 70.02x  |         ❗          |
-| 60.50x  |       ⏲️        |
+| 70.02x  |       ⏲️         |
+| 60.50x  |       ⏲️         |
 | 50.20x  |  :white_check_mark:|
-| 50.x   |       ⏲️           |
+| 50.x   |       ❗           |
 | stable |     2023-2024      |
 | 10.x   |       ⏲️            |
 | 9.4x   |  :white_check_mark:|
