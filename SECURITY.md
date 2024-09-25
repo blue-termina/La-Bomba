@@ -15,7 +15,7 @@ currently being supported with security updates.
 | 50.20x  |       ⏲️         |
 | 50.x   |        ⏲️          |
 | stable |     2024-2027      |
-| 10.50x  | :white_check_mark:  |
+| 10.50.x  | :white_check_mark:  |
 | 10.x   |        ✖️             |
 | 9.4x   |        ❗             |
 | 8.0x   |      ✖️             |
