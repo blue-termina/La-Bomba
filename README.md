@@ -5,8 +5,9 @@ non mi assumo nessuna responsabilità del utilizzo di questo strumento 🚨
 
 
 maps
-![La bomva exe (2)](https://github.com/user-attachments/assets/8e65966b-5ede-42a1-9fed-6b028788a425)
 
+
+![La bomva exe](https://github.com/user-attachments/assets/3c1453f8-9039-47b4-b58b-c853794d3c03)
 
 
 
