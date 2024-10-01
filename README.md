@@ -6,8 +6,7 @@ non mi assumo nessuna responsabilità del utilizzo di questo strumento 🚨
 
 maps
 
-[La bomva exe (1)](https://github.com/user-attachments/assets/ef6d09e2-172e-457a-8c18-93445b306016)![Snapinsta app_461804983_1608271580036164_157796926059834423_n_1080](https://github.com/user-attachments/assets/87c4fd1b-fe12-4509-b9dc-744fd2dc4017)
-
+![Snapinsta app_461804983_1608271580036164_157796926059834423_n_1080](https://github.com/user-attachments/assets/48fc73ef-9ae8-4d9a-8c43-e6175e734173)
 
 
 
